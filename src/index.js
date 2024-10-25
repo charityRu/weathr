@@ -8,7 +8,7 @@ function displayTemperature(response) {
 
 
   cityElement.innerHTML = response.data.city;
-  descriptionElement.innerHTML=response.data.condition.description
+  descriptionElement.innerHTML=response.data.condition.description;
   temperatureElement.innerHTML = temperature;
 }
 
